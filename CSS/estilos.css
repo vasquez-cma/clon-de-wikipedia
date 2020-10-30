@@ -25,3 +25,54 @@ header .header-container .header-title{
     font-size: 3rem;
     text-transform: uppercase;
 }
+.main-1{
+    width: 580px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(47, 104, 211);
+}
+.main-1{
+    width: 580px;
+    margin: 0 auto;
+}
+.main-1 p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.main-1 .languages-1{
+    display: flex;
+    width: 360px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.main-1 .languages-2{
+    display: flex;
+    width: 440px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.main-1 .languages-3{
+    display: flex;
+    width: 500px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.main-1 .languages-4{
+    display: flex;
+    width: 440px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.main-1 .languages-5{
+    display: flex;
+    width: 360px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
