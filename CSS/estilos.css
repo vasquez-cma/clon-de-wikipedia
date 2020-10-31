@@ -25,9 +25,15 @@ header .header-container .header-title{
     font-size: 3rem;
     text-transform: uppercase;
 }
-.main-1{
+main{
     width: 580px;
     margin: 0 auto;
+    position: relative;
+}
+main .main-1{
+    width: 580px;
+    margin: 0 auto;
+    
 }
 a{
     text-decoration: none;
@@ -75,4 +81,16 @@ a{
     width: 360px;
     margin: 20px auto;
     justify-content: space-between;
+}
+
+main .logo{
+    background-image: url('/imagenes/wikipedia.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 180px;
+    top: 60px;
+    
 }
