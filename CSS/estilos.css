@@ -106,9 +106,11 @@ main .search-button{
 main .main-1 .search-button .input-container{
     margin-top: 30px;
     border: 1px solid black;
-    width: 400px;
+    width: 420px;
     height: 40px;
     border-color: rgb(172, 172, 172);
+    display: flex;
+    align-items: center;
     
 }
 .main-1 .search-button .input-container .input-1{
@@ -123,4 +125,51 @@ select{
     width: 40px;
     height: 30px;
     border-color: white;
+    font-size: 1.2rem;
+    color: rgb(102, 102, 102);
+}
+.main-1 .search-button .search-icon{
+    
+    width: 60px;
+    height: 40px;
+    border: none;
+    background-color:  rgb(47, 104, 211);
+    margin-left: 10px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.main-1 .search-button .search-icon .search-icon-container{
+    background-image: url('https://svg-clipart.com/clipart/white/ktmN7fh-search-icon-white-one-clipart.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    
+}
+main .main-1 .button-language{
+    width: 580px;
+    height: 40px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    
+}
+main .main-1 .button-language ul{
+    width: 250px;
+    height: 35px;
+    border: 1px solid rgb(172, 172, 172);
+    color: rgb(47, 104, 211);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    
+}
+main .main-1 .button-language ul li a{
+    margin: 0 5px;
+    font-size: 1.4rem;
 }
