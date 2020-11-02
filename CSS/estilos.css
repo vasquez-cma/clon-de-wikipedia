@@ -62,6 +62,7 @@ a{
     width: 380px;
     margin: 20px auto;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 
@@ -71,6 +72,7 @@ a{
     width: 460px;
     margin: 20px auto;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 
@@ -79,6 +81,7 @@ a{
     width: 520px;
     margin: 20px auto;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .main-1 .languages-4{
@@ -86,12 +89,14 @@ a{
     width: 460px;
     margin: 20px auto;
     justify-content: space-between;
+    cursor: pointer;
 }
 .main-1 .languages-5{
     display: flex;
     width: 380px;
     margin: 20px auto;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 main .logo{
@@ -165,6 +170,7 @@ main .main-1 .button-language{
     margin: 35px auto;
     display: flex;
     justify-content: center;
+    cursor: pointer;
     
 }
 main .main-1 .button-language ul{
@@ -184,4 +190,17 @@ main .main-1 .button-language ul li a{
     margin: 0 5px;
     font-size: 1.4rem;
     padding-left: 0;
+}
+.line-1{
+    width: 80px;
+    height: 20px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    margin-right: 30px;
+    
+}
+.line-2{
+    width: 80px;
+    height: 20px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    margin-left: 30px;
 }
