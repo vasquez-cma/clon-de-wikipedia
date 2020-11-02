@@ -100,7 +100,7 @@ a{
 }
 
 main .logo{
-    background-image: url('/imagenes/wikipedia.png');
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 200px;
